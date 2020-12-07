@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="_wrapper">
+      <form>
+      <div class="_formTitle">
+        Contact Form
+      </div>
+        <div class="_row">
+          <div class="_column" >
+          <div class="_fieldsLabel">Title</div>
+          <select required>
+            <option></option>
+            <option>Mrs</option>
+            <option>Ms</option>
+          </select>
+          </div>
+          <div class="_column" >
+            <div class="_fieldsLabel">First Name</div>
+            <input type="text" placeholder="First Name" >
+          </div>
+          <div class="_column" >
+            <div class="_fieldsLabel">Last Name</div>
+            <input type="text" placeholder="Last Name" >
+          </div>
+        </div>
+        <div class="_row">
+          <div class="_column" >
+            <div class="_fieldsLabel">Date</div>
+            <input type="date">
+          </div>
+          <div class="_column" >
+            <div class="_fieldsLabel">Number</div>
+            <input type="number" placeholder="Number" >
+          </div>
+        </div>
+        <div class="_row">
+         
+          <!--<span>-->
+            <input type="file" id="fileField">
+              <label id="fileTextLabel">No file choosen</label>
+              <label id="fileBrowseLabel" for="fileField">Browse</label>
+           
+          <!--</span>-->
+        </div>
+        <div class="_column">
+          <input type="email" placeholder="Email" >
+          <textarea rows="5"  maxlength="300" cols="4" placeholder="Message" ></textarea>
+        </div>
+        <div class="_column">
+          <button>Submit</button>
+        </div>
+        </form>
+      </div>
+  </body>
+</html>
